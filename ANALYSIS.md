@@ -86,3 +86,37 @@
 - **Pricing Model:** Offers a free plan with limited usage, alongside paid plans for advanced features and higher limits  
 - **Supported Languages:** Primarily JavaScript and TypeScript, with support for modern frameworks such as React and Next.js  
 
+
+# Part 2: Comparative Analysis
+
+## 1. Vibe Coding Tools vs Traditional Code Completion
+
+Vibe coding tools differ from traditional code completion systems by operating at a much higher level than simple syntax prediction. Traditional autocomplete tools mainly suggest the next token, variable name, or line of code based on local patterns in the current file. Although this approach helps speed up typing, it does not take into account the overall structure of the project or the developer’s broader intentions.
+
+In contrast, vibe coding tools analyze the entire codebase, including folder hierarchy, dependencies, and existing logic. Instead of responding only to what is typed at the cursor, they interpret natural language instructions and translate them into meaningful actions across the project. This allows developers to request complex tasks such as creating new features, reorganizing components, or refactoring multiple files at the same time.
+
+For example, when using traditional code completion, a developer must manually create files, write boilerplate code, and manage imports step by step. With a vibe coding tool, the developer can describe the desired functionality in plain language, and the tool automatically generates the necessary structure. As a result, vibe coding tools shift development from line-by-line assistance to goal-oriented collaboration, making them more suitable for modern and large-scale applications.
+
+## 2. Vibe Coding Tools vs GitHub Copilot
+
+GitHub Copilot is primarily designed to assist developers by suggesting code snippets while they are typing. Its main strength lies in providing inline completions, functions, or small blocks of code based on the current file and nearby context. While this can significantly speed up development, Copilot generally requires the developer to manually manage project structure, file creation, and integration between different parts of the codebase.
+
+Vibe coding tools, however, adopt a more task-oriented and autonomous approach. Instead of focusing solely on line-by-line suggestions, they allow developers to describe higher-level goals such as implementing a feature, refactoring an existing system, or reorganizing application architecture. These tools can operate across multiple files simultaneously and make coordinated changes while preserving project consistency.
+
+For instance, when using GitHub Copilot, a developer might receive help writing a function but still needs to create files, update imports, and connect components manually. With a vibe coding tool, the same task can be completed by describing the requirement in natural language, after which the tool generates and updates all relevant parts of the project. This makes vibe coding tools more suitable for complex workflows where broader context and multi-file awareness are required.
+
+## 3. Vibe Coding Tools vs ChatGPT/Claude in a Separate Window
+
+Using large language models such as ChatGPT or Claude in a separate browser window can be helpful for learning concepts, generating example code, or brainstorming solutions. However, this workflow often requires developers to manually copy code, describe project context repeatedly, and switch back and forth between the IDE and the chat interface. This interruption can slow down development and increase the risk of miscommunication.
+
+Vibe coding tools address this limitation by being directly embedded within the development environment. Because they have immediate access to the project’s file structure, dependencies, and current state, they can apply changes without requiring the developer to repeatedly explain context. This leads to a smoother and more continuous workflow where instructions can be executed directly on the codebase.
+
+For example, when asking ChatGPT or Claude to fix a bug, a developer must paste the relevant code and then manually apply the suggested changes. In contrast, a vibe coding tool can inspect the affected files itself and update them automatically. This level of integration makes vibe coding tools particularly effective for iterative development and larger projects where maintaining context is critical.
+
+## Conclusion
+
+In summary, vibe coding tools introduce a new way of interacting with software development workflows. Unlike traditional autocomplete systems that focus on small, localized suggestions, and tools like GitHub Copilot that enhance inline coding, vibe coding tools operate at a higher level by understanding intent, project structure, and overall goals. This enables them to assist with complex tasks that span multiple files and components.
+
+Although standalone AI models such as ChatGPT or Claude are highly valuable for explanations and isolated problem solving, their lack of direct integration into the development environment creates additional friction. Vibe coding tools overcome this limitation by embedding AI directly into the IDE, allowing continuous context awareness and seamless execution of changes across the codebase.
+
+Each category of tool serves a different purpose in modern development. Autocomplete tools are useful for speed, Copilot improves productivity within individual files, and standalone AI models support learning and ideation. Vibe coding tools, however, stand out as collaborative partners that help developers focus on higher-level thinking and design. As these tools continue to evolve, they are likely to play an increasingly important role in shaping the future of software development.
